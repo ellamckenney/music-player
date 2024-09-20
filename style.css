@@ -23,5 +23,56 @@ body{
 }
 
 .container .song-info .song-name{
-  color: #000;
+  color: #b9b9b9;
+  font-size: 14px;
+  margin: 3px 0 20px;
+}
+
+.container .song-info .artist-name {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container .song-info .progress-bar {
+  background-color: #505050;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.container .song-info .progress-bar .fill-bar{
+  width: 0;
+  height: 6px;
+  border-radius: 20px;
+  background: #1db945;
+}
+
+.container .song-info .time{
+  font-size: 15px;
+  color: #b9b9b9;
+  margin: 10px 0;
+}
+
+.container .disc{
+  max-width: 120px;
+}
+
+.container .disc .active{
+  animation: rotate 3s linear 0s infinite forwards;
+}
+
+.container .disc .cover{
+  width: 145px;
+  height: 145px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url("assets/1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rbga(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
 }
